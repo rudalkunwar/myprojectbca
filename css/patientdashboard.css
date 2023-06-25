@@ -1,0 +1,247 @@
+/* Reset some default styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    line-height: 1.5;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Header */
+  .header {
+    background-color: #f4f4f4;
+    padding: 20px 0;
+  }
+  
+  .logo {
+    color: #333;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 24px;
+  }
+  
+  .menu-toggle-btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .navbar-list {
+    list-style: none;
+    display: flex;
+  }
+  
+  .navbar-link {
+    color: #333;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+  }
+  
+  .navbar-link.active {
+    color: #007bff;
+  }
+  
+  .icon-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5px;
+  }
+  
+  .user-action-list {
+    display: flex;
+    align-items: center;
+  }
+  
+  .notification {
+    color: #333;
+  }
+  
+  .header-profile {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+    margin-left: 20px;
+  }
+  
+  .profile-avatar {
+    margin-right: 10px;
+  }
+  
+  .profile-title {
+    margin-bottom: 0;
+    font-weight: 600;
+  }
+  
+  .profile-subtitle {
+    margin-bottom: 0;
+    font-size: 14px;
+  }
+  
+  /* Main */
+  .article {
+    margin-top: 40px;
+  }
+  
+  .h2 {
+    font-size: 28px;
+    font-weight: 600;
+  }
+  
+  .article-title {
+    margin-bottom: 10px;
+  }
+  
+  .article-subtitle {
+    margin-bottom: 30px;
+    font-size: 18px;
+  }
+  
+  .section-title-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .section-title {
+    font-size: 24px;
+    font-weight: 600;
+  }
+  
+  .btn {
+    background-color: transparent;
+    border: none;
+    color: #007bff;
+    text-decoration: none;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .btn-link:hover {
+    text-decoration: underline;
+  }
+  
+  .projects {
+    margin-top: 40px;
+  }
+  
+  .project-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .project-item {
+    flex: 0 0 50%;
+    margin-bottom: 20px;
+    padding-right: 20px;
+  }
+  
+  .project-card {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    position: relative;
+  }
+  
+  .card-menu-btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  .card-date {
+    color: #888;
+    font-size: 14px;
+  }
+  
+  .card-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .card-description {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .card-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .card-icon {
+    display: flex;
+    align-items: center;
+    color: #007bff;
+  }
+  
+  .card-icon i {
+    margin-right: 5px;
+  }
+  
+  .card-btn {
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .card-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #f4f4f4;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footer-text {
+    color: #333;
+    font-size: 14px;
+  }
+  
+  .footer-link {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .footer-link:hover {
+    text-decoration: underline;
+  }
+  
